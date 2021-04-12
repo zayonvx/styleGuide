@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-style: normal;
+    src: url("fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    font-weight: 400;
+    font-style: italic;
+    src: url(fonts/Nunito_Sans/NunitoSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Nunito Sans";
+    font-weight: 800;
+    font-style: normal;
+    src: url(fonts/Nunito_Sans/NunitoSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: normal;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: italic;
+    src: url(fonts/Poppins/Poppins-Italic.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    font-weight: 800;
+    font-style: italic;
+    src: url(fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    font-weight: 400;
+    font-style: normal;
+    src: url(fonts/Source_Code_Pro/SourceCodePro-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    font-weight: 400;
+    font-style: italic;
+    src: url(fonts/Source_Code_Pro/SourceCodePro-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Source Code Pro";
+    font-weight: 800;
+    font-style: normal;
+    src: url(fonts/Source_Code_Pro/SourceCodePro-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Nunito Sans";
+    font-size: 14px;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.page-title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.page-section {
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 20px;   
+}
+
+.colors-list, .fonts-list, .styles-list {
+    list-style: none;
+}
+
+.styles-sublist {
+    margin-left: 40px;
+    list-style-type: circle;
+}
+
+.color-title, .color-value {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.color-title {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.color-value {
+    color: #000;
+}
+
+.colors-item {
+    width: 32%;
+    margin: 20px auto;
+    display: inline-block;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.color-blue .color-title, .color-blue .color-value {
+    color: #fff;
+}
+
+.color-blue {
+    background-color: #2d5dcc;
+}
+
+.color-pink {
+    background-color: #d957d9;
+}
+
+.color-green {
+    background-color: #4fe0b0;
+}
+
+.color-beige {
+    background-color: #efd9cd;
+}
+
+.page-section {
+    border: 1px solid black;
+    padding: 20px 25px 10px 5px;
+    margin-bottom: 10px;
+}
+
+.font-title {
+    margin-bottom: 10px;
+}
+
+.fonts-item {
+    display: inline-block;
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+.source-code-pro {
+    font-family: "Source Code Pro";
+}
+
+.poppins {
+    font-family: Poppins;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-bold {
+    font-weight: 800;
+}
+
+.styles-item {
+    margin-bottom: 20px;
+}
+
+.styles-title {
+    margin-bottom: 10px;
+}
+
+.header-1 .styles-title {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.header-2 .styles-title {
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+.header-3 .styles-title {
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+}
